@@ -1,219 +1,25 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-
-  <head>
-<link rel="canonical" href="http://www.ctrends.net/" />
-<title>Computer Trends - Computer Trends</title>
-
-
-<base href="http://www.ctrends.net/" />
-<meta name="Generator" content="CMS Made Simple - Copyright (C) 2004-9 Ted Kulp. All rights reserved." />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="DESCRIPTION" content="Computer Trends is a full service computer dealer, offering experience in computer repair, internet service, networking, and onsite computer services. We cater to small businesses as well as anyone in need of a local computer dealer." />
-<meta name="KEYWORDS" content="computer trends,computer,pc,virus,spyware,windows,internet,dial-up,isp,computer repair,computer dealer,spartanburg,sc,south carolina,greenville,web hosting,networking,network" />
-<!-- Add code here that should appear in the metadata section of all new pages -->
-
-<link rel="stylesheet" type="text/css" media="screen" href="http://www.ctrends.net/stylesheet.php?cssid=48&amp;mediatype=screen" />
-<link rel="stylesheet" type="text/css" media="screen" href="http://www.ctrends.net/stylesheet.php?cssid=47&amp;mediatype=screen" />
-<link rel="stylesheet" type="text/css" media="screen" href="http://www.ctrends.net/stylesheet.php?cssid=50&amp;mediatype=screen" />
-
-
-<link rel="start" title="Computer Trends" href="http://www.ctrends.net/" />
-
-<link rel="next" title="Computer Services" href="http://www.ctrends.net/index.php?page=computer-services" />
-
-<!--[if IE 6]>
-<script type="text/javascript" src="modules/MenuManager/CSSMenu.js"></script>
-<![endif]-->
-
-
-<!--[if IE 6]>
-<script type="text/javascript"  src="uploads/NCleanBlue/js/ie6fix.js"></script>
-<script type="text/javascript">
- // argument is a CSS selector
- DD_belatedPNG.fix('.sbar-top,.sbar-bottom,.main-top,.main-bottom,#version');
-</script>
-<style type="text/css">
-/* enable background image caching in IE6 */
-html {filter:expression(document.execCommand("BackgroundImageCache", false, true));} 
-</style>
-<![endif]-->
-
-
-  </head>  <body>
-    <div id="ncleanblue">
-      <div id="pagewrapper" class="core-wrap-960 core-center">
-        <ul class="accessibility">
-          <li><a href="/#menu_vert" title="Skip to navigation" accesskey="n">Skip to navigation</a></li>
-          <li><a href="/#main" title="Skip to content" accesskey="s">Skip to content</a></li>
-        </ul>
-        <hr class="accessibility" />
-
-        <div id="header" class="util-clearfix">
-          <div id="logo" class="core-float-left">
-            <a href="http://www.ctrends.net/" title="Computer Trends" >Computer Trends</a>
-          </div>
-          
-          <div id="search" class="core-float-right">
-            <form id="cntnt01moduleform_1" method="post" action="http://www.ctrends.net/">
-<div class="hidden">
-<input type="hidden" name="mact" value="Search,cntnt01,dosearch,0" />
-<input type="hidden" name="cntnt01returnid" value="56" />
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<title>Computer Trends - [% title %]</title>
+<meta name="generator" content="Bluefish 2.2.2" />
+<meta name="author" content="Daniel Jones" />
+<meta name="date" content="2012-09-20T01:36:34-0400" />
+<meta name="copyright" content=""/>
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+<meta name="ROBOTS" content="NOINDEX, NOFOLLOW"/>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8"/>
+<meta http-equiv="content-style-type" content="text/css"/>
+<meta http-equiv="expires" content="0"/>
+<link href="/stylesheet.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="main">
+[% content %]
+<div id="footer"></div>
 </div>
-
-
-    <label for="cntnt01searchinput">Search:&nbsp;</label><input type="text" class="search-input" id="cntnt01searchinput" name="cntnt01searchinput" size="20" maxlength="50" value="Enter Search..." onfocus="if(this.value==this.defaultValue) this.value='';" onblur="if(this.value=='') this.value=this.defaultValue;"/><input class="search-button" name="submit" value="Submit" type="submit" />
-
-</form>
-
-          </div>
-          <span class="util-clearb">&nbsp;</span>
-          
-          <h2 class="accessibility util-clearb">Navigation</h2>
-          <div class="page-menu util-clearfix">
-          <div id="menuwrapper">
-<ul id="primary-nav">
-<li class="menuactive">
-<a class="menuactive" href="http://www.ctrends.net/"><span>Computer Trends</span></a>
-</li>
-<li>
-<a href="http://www.ctrends.net/index.php?page=computer-services"><span>Computer Services</span></a>
-</li>
-<li>
-<a href="http://www.ctrends.net/index.php?page=internet-services"><span>Internet Services</span></a>
-</li>
-<li>
-<a href="http://www.ctrends.net/index.php?page=contact-us"><span>Contact Us</span></a>
-
-</li>
-</ul>
-<div class="clearb"></div>
-</div>
-
-          </div>
-          <hr class="accessibility util-clearb" />
-
-        </div>
-
-        <div id="content" class="util-clearfix"> 
-
-
-          <div id="bar" class="util-clearfix">
-            <div class="breadcrumbs core-float-right">
-              You are here: <span class="lastitem">Computer Trends</span>
-            </div>
-
-            <hr class="accessibility util-clearb" />
-          </div>
-
-          <div id="left" class="core-float-left">
-            <div class="sbar-top">
-              <h2 class="sbar-title">Info</h2>
-            </div>
-            <div class="sbar-main">
-              <div id="news">
-              <p>Hours:</p>
-              <p>Mon-Fri: 9AM-5PM<br />
-              Sat-Sun: Closed</p>
-
-<!-- Facebook Badge START --><a href="http://www.facebook.com/pages/Spartanburg-SC/Computer-Trends/133315493383724" target="_TOP" style="font-family: &quot;lucida grande&quot;,tahoma,verdana,arial,sans-serif; font-size: 11px; font-variant: normal; font-style: normal; font-weight: normal; color: #3B5998; text-decoration: none;" title="Computer Trends">Computer Trends</a><br/><a href="http://www.facebook.com/pages/Spartanburg-SC/Computer-Trends/133315493383724" target="_TOP" title="Computer Trends"><img src="http://badge.facebook.com/badge/133315493383724.1037.1508777897.png" width="120" height="118" style="border: 0px;" /></a><br/><a href="http://www.facebook.com/business/dashboard/" target="_TOP" style="font-family: &quot;lucida grande&quot;,tahoma,verdana,arial,sans-serif; font-size: 11px; font-variant: normal; font-style: normal; font-weight: normal; color: #3B5998; text-decoration: none;" title="Make your own badge!">Promote Your Page Too</a><!-- Facebook Badge END -->
-
-              </div>
- 
-            </div>
-            <span class="sbar-bottom">&nbsp;</span> 
-          </div>
-
-          <div id="main"  class="core-float-right">
-
-            <div class="main-top">
-              <div class="print core-float-right">
-                <a href="http://www.ctrends.net/index.php?mact=Printing,cntnt01,output,0&amp;cntnt01url=aHR0cDovL3d3dy5jdHJlbmRzLm5ldC8%2Fc2hvd3RlbXBsYXRlPWZhbHNl&amp;cntnt01pageid=56&amp;cntnt01returnid=56" class="noprint"   rel="nofollow">  <img src="modules/Printing/printbutton.gif" title="Print this page" alt="Print this page"  />
-</a>
-
-              </div>
-            </div> 
-            
-            <div class="main-main util-clearfix">
-              <h1 class="title">Computer Trends</h1>
-            <br />
-<p><strong>Computer Trends</strong> is a family owned and operated business that began in Spartanburg, S.C. in 1985. We are conveniently located on 1237 Boiling Springs Road in Spartanburg, approximately one mile from Spartanburg Regional Hospital.</p>
-<p> </p>
-<p>We are a full service computer dealer, offering experience in computer repair, internet service, networking, and onsite computer services. We cater to small businesses as well as anyone in need of a local computer dealer.</p>
-<p> </p>
-<p>Being in business since 1985 has allowed us the opportunity to become exposed to a variety of computer issues, from viruses to computer hardware failures, network troubleshooting and many others. So, whether you need viruses removed, data transferred, computers upgraded or just looking for some advice, please let us help.</p>
-<p> </p>
-<p> </p>
-<br />
-            </div>
-            
-            <div class="main-bottom">
-              <div class="right49 core-float-right">
-              <a href="/#main">^&nbsp;&nbsp;Top</a>
-              </div>
-              <div class="left49 core-float-left">
-                <span>
-                  &nbsp;
-                </span>
-                <span>
-                  Next page: <a href="http://www.ctrends.net/index.php?page=computer-services" title="Computer Services" >Computer Services</a>&nbsp;
-                </span>
-              </div>
-
-              <hr class="accessibility" />
-            </div>
-
-          </div>
-
-        </div>
-
-      </div>
-      <span class="util-clearb">&nbsp;</span>
-      
-      <div id="footer-wrapper">
-        <div id="footer" class="core-wrap-960">
-          <div class="block core-float-left">
-             
-<ul class="clearfix">
-
-<li><a href="http://www.ctrends.net/" class="currentpage"> Computer Trends </a>
-
-
-</li>
-
-<li><a href="http://www.ctrends.net/index.php?page=computer-services"> Computer Services </a>
-
-
-</li>
-
-<li><a href="http://www.ctrends.net/index.php?page=internet-services"> Internet Services </a>
-
-
-</li>
-
-<li><a href="http://www.ctrends.net/index.php?page=contact-us"> Contact Us </a>
-
-
-
-</li>
-</ul>
-
-          </div>
-          
-          <div class="block core-float-left">
-            
-          </div>
-          
-          <div class="block cms core-float-left">
-            <p>&copy; Copyright 2004-2012 - CMS Made Simple<br />
-This site is powered by <a href="http://www.cmsmadesimple.org">CMS Made Simple</a> version 1.6.8</p>
-          </div>
-          
-          <span class="util-clearb">&nbsp;</span>
-        </div>
-      </div>
-    </div>
-  </body>
-</html><!-- 0.389157 / 23 / 5454568 / 0 -->
-
+</body>
+</html>
