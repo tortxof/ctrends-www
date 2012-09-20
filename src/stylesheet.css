@@ -1,6 +1,6 @@
 body {
 font-family:sans-serif;
-background-color:#bde;
+background-color:#57a;
 background-image:url('/images/bg.png');
 background-repeat:repeat-x;
 padding:0;
@@ -9,10 +9,12 @@ margin:0;
 
 h1 {
 font-size:1.5em;
+font-weight:normal;
 }
 
 h2 {
 font-size:1.2em;
+font-weight:normal;
 }
 
 #header {
@@ -66,15 +68,17 @@ margin:0 auto 0 auto;
 background-color:#fff;
 border:1px solid #000;
 border-radius:8px;
-padding:1em;
+padding:16px;
 }
 
 #info {
 float:left;
 width:auto;
-margin:0 2em 2em 0;
-padding:.5em;
+max-width:150px;
+margin:0 32px 32px 0;
+padding:8px;
 border:1px solid #aaa;
+border-radius:8px;
 }
 
 #content {
@@ -86,10 +90,8 @@ border:0;
 }
 
 #footer {
-width:auto;
+width:700px;
 font-size:.8em;
-background-color:#ccc;
-border:1px solid #aaa;
-margin:0;
-padding:.6em;
+margin:0 auto 0 auto;
+padding:1em;
 }
