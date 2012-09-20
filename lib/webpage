@@ -5,7 +5,7 @@
 <title>Computer Trends - [% title %]</title>
 <meta name="generator" content="Bluefish 2.2.2" />
 <meta name="author" content="Daniel Jones" />
-<meta name="date" content="2012-09-20T01:36:34-0400" />
+<meta name="date" content="2012-09-20T14:11:27-0400" />
 <meta name="copyright" content=""/>
 <meta name="keywords" content=""/>
 <meta name="description" content=""/>
@@ -17,9 +17,28 @@
 <link href="/stylesheet.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+<div id="header"><img src="/images/ctrends-logo.png" width="392" height="75" alt="Computer Trends" /></div>
+<div id="menu">
+<ul>
+<li><a href="/">About Us</a></li>
+<li><a href="/services/">Computer Services</a></li>
+<li><a href="/internet/">Internet Services</a></li>
+<li><a href="/contact/">Contact Us</a></li>
+</ul>
+</div>
 <div id="main">
+<div id="info">
+Hours:<br />
+Mon-Fri: 9AM-5PM<br />
+Sat-Sun: Closed<br />
+[% INCLUDE facebook %]
+</div>
+<div id="content">
+<h1 class="title">[% title %]</h1>
 [% content %]
-<div id="footer"></div>
+</div>
+<br style="clear:both;" />
+<div id="footer">&copy;Computer Trends LLC 2012</div>
 </div>
 </body>
 </html>
