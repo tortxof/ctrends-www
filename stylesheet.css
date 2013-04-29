@@ -20,11 +20,13 @@ font-weight:normal;
 #header {
 padding:8px 8px 8px 64px;
 margin:0 auto 0 auto;
-width:720px;
+max-width:720px;
+width:auto;
 }
 
 #menu {
-width:720px;
+max-width:720px;
+width:auto;
 font-size:.8em;
 padding:0;
 margin:0 auto 0 auto;
@@ -63,7 +65,8 @@ background-color:#936;
 }
 
 #main {
-width:720px;
+max-width:720px;
+width:auto;
 margin:0 auto 0 auto;
 background-color:#fff;
 border:1px solid #333;
@@ -82,7 +85,8 @@ border-radius:8px;
 }
 
 #content {
-width:520px;
+max-width:520px;
+width:auto;
 float:right;
 margin:0;
 padding:0;
@@ -91,9 +95,31 @@ border:0;
 
 #footer {
 clear:both;
-width:720px;
+max-width:720px;
+width:auto;
 font-size:.8em;
 color:#333;
 margin:0;
 padding:0;
+}
+
+@media only screen and (max-width: 512px), only screen and (max-device-width: 512px) {
+
+#header, #menu, #main, #content, #footer {
+width:auto;
+}
+
+#content, #info {
+float:none;
+}
+
+#menu a:link, #menu a:visited {
+margin:2px;
+border-radius:0;
+}
+
+#main {
+border:0;
+border-radius:0;
+}
 }

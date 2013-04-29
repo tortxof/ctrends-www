@@ -6,6 +6,7 @@
 <meta name="keywords" content="" />
 <meta name="description" content="" />
 <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <link href="/stylesheet.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -25,17 +26,17 @@
 
 <div id="main">
 
+<div id="content">
+<h1 class="title">{{ page.title }}</h1>
+{{ content }}
+</div><!-- end content -->
+
 <div id="info">
 Hours:<br />
 Mon-Fri: 9AM-5PM<br />
 Sat-Sun: Closed<br />
 {% include facebook.html %}
 </div><!-- end info -->
-
-<div id="content">
-<h1 class="title">{{ page.title }}</h1>
-{{ content }}
-</div><!-- end content -->
 
 <div id="footer">
 &copy; 2013 Computer Trends LLC
