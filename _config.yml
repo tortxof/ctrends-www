@@ -4,5 +4,5 @@ pygments: true
 server: false
 exclude:
 - README.md
-- Rakefile
+- assets
 - upload
