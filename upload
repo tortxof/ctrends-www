@@ -1,1 +1,1 @@
-rsync -av _site/ admin@ctrends.net:/home/sites/www.ctrends.net/web/
+rsync -av _site/ ctrends.net:/var/www/clients/client1/web2/web/
