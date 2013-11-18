@@ -1,1 +1,1 @@
-rsync -av _site/ ctrends.net:/var/www/vhosts/ctrends.net/www/
+rsync -rv _site/ ctrends.net:/var/www/ctrends.net/web/
