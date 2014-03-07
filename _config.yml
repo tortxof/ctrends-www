@@ -1,7 +1,8 @@
-auto: false
 permalink: /:year/:month/:day/:title
 pygments: true
-server: false
+markdown: redcarpet
+redcarpet:
+  extensions: ['smart']
 exclude:
 - README.md
 - assets
