@@ -9,12 +9,12 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="440.21475"
+   width="95.634483"
    height="90.799431"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48.3.1 r9886"
-   sodipodi:docname="ink_ext_XXXXXX.svgWT0VWW">
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="header.svg">
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -24,7 +24,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="1"
      inkscape:cx="120.35123"
-     inkscape:cy="-37.201891"
+     inkscape:cy="-37.201899"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -33,25 +33,15 @@
      fit-margin-right="8"
      fit-margin-bottom="8"
      units="px"
-     inkscape:window-width="1215"
-     inkscape:window-height="1000"
+     inkscape:window-width="1301"
+     inkscape:window-height="744"
      inkscape:window-x="65"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
      showguides="true"
      inkscape:guide-bbox="true" />
   <defs
-     id="defs4">
-    <filter
-       id="filter5500"
-       inkscape:collect="always"
-       color-interpolation-filters="sRGB">
-      <feGaussianBlur
-         id="feGaussianBlur5502"
-         stdDeviation="0.67024781"
-         inkscape:collect="always" />
-    </filter>
-  </defs>
+     id="defs4" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -60,7 +50,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -2048,16 +2038,5 @@
          d="m 330.21875,928.89468 c 9.01625,-3.4475 16.815,-8.55625 23.02,-15.41 35.42375,-39.13 6.09125,-120.51875 -65.3,-181.18 -71.39125,-60.66 -158.50875,-78.2225 -193.93375,-39.0925 -14.60625,16.13375 -18.1925,39.455 -12.3725,65.54125 -2.61875,-20.8675 1.615,-39.33125 13.69625,-52.67625 34.04,-37.6 117.75625,-20.72625 186.35625,37.565 68.60125,58.29125 96.78875,136.5 62.74875,174.10125 -4.065,4.48875 -8.845,8.19375 -14.215,11.15125 z"
          inkscape:connector-curvature="0" />
     </g>
-    <text
-       sodipodi:linespacing="125%"
-       id="text4662"
-       y="765.87317"
-       x="141.4565"
-       style="font-size:48px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O"
-       xml:space="preserve"><tspan
-         y="765.87317"
-         x="141.4565"
-         id="tspan4664"
-         sodipodi:role="line">Computer Trends</tspan></text>
   </g>
 </svg>

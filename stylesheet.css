@@ -20,10 +20,18 @@ font-weight:normal;
 }
 
 #header {
-padding:8px 8px 8px 64px;
-margin:0 auto 0 auto;
-max-width:680px;
-width:auto;
+width: 680px;
+height: 91px;
+background: url('/images/ctrends-logo.png') no-repeat;
+padding: 0;
+margin:0 auto;
+}
+
+#header p {
+line-height: 91px;
+font-size: 40px;
+margin: 0;
+padding: 0 0 0 100px;
 }
 
 #menu {
