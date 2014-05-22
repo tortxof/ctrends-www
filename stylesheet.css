@@ -4,7 +4,8 @@ height: 100%;
 
 body {
 font-family: 'Open Sans', sans-serif;
-background: #369 -moz-linear-gradient(#def, #369 480px) no-repeat;
+background-color: #369;
+background: -moz-linear-gradient(#def, #369 480px) no-repeat;
 margin: 0;
 }
 
