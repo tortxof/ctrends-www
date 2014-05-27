@@ -51,7 +51,7 @@ font-size:1.2em;
 font-weight:normal;
 }
 
-#header {
+header {
 width: 680px;
 height: 91px;
 background: url('/images/ctrends-logo.png') no-repeat;
@@ -59,14 +59,14 @@ padding: 0;
 margin:0 auto;
 }
 
-#header p {
+header p {
 line-height: 91px;
 font-size: 40px;
 margin: 0;
 padding: 0 0 0 100px;
 }
 
-#menu {
+nav {
 max-width:680px;
 width:auto;
 font-size:.8em;
@@ -74,22 +74,9 @@ padding:0;
 margin:0 auto 0 auto;
 }
 
-#menu ul
+nav a:link, nav a:visited
 {
-list-style-type:none;
-margin:0;
-padding:0;
-overflow:hidden;
-}
-
-#menu li
-{
-float:left;
-}
-
-#menu a:link, #menu a:visited
-{
-display:block;
+display: inline-block;
 width:auto;
 color:#000;
 background-color:#fff;
@@ -100,13 +87,13 @@ padding:.2em 1em .2em 1em;
 margin:0 2px 0 2px;
 text-decoration:none;
 }
-#menu a:hover, #menu a:active
+nav a:hover, nav a:active
 {
 color:#fff;
 background-color:#936;
 }
 
-#main {
+.main {
 max-width:680px;
 margin:0 auto 0 auto;
 background-color:#fff;
@@ -115,7 +102,7 @@ border-radius:8px;
 padding:16px;
 }
 
-#info {
+.info {
 float:left;
 width:150px;
 margin:0 32px 32px 0;
@@ -124,7 +111,7 @@ border:1px solid #aaa;
 border-radius:8px;
 }
 
-#content {
+.content {
 width:480px;
 float:right;
 margin:0;
@@ -132,7 +119,7 @@ padding:0;
 border:0;
 }
 
-#footer {
+footer {
 clear:both;
 max-width:680px;
 width:auto;

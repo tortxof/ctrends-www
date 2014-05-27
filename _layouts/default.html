@@ -1,49 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8" />
-<meta name="google-site-verification" content="qWISntRLEfw10I8cJ9mr_MnQzdnZu0WvrfXHOG8txGo" />
-<meta name="author" content="Daniel Jones http://djones.co/" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-<link href="/css/style.css" rel="stylesheet" type="text/css" />
-<link rel="icon" type="image/png" href="/images/icon.png" />
-<title>Computer Trends - {{ page.title }}</title>
-</head>
-<body>
-
-<div id="header">
-<p>Computer Trends</p>
-</div><!-- end header -->
-
-<div id="menu">
-<ul>
-<li><a href="/">About Us</a></li>
-<li><a href="/services/">Computer Services</a></li>
-<li><a href="/internet/">Internet Services</a></li>
-<li><a href="/contact/">Contact Us</a></li>
-</ul>
-</div><!-- end menu -->
-
-<div id="main">
-
-<div id="content">
-<h1 class="title">{{ page.title }}</h1>
-{{ content }}
-</div><!-- end content -->
-
-<div id="info">
-Hours:<br />
-Mon-Fri: 9AM-5PM<br />
-Sat-Sun: Closed<br />
-{% include facebook.html %}
-</div><!-- end info -->
-
-<div id="footer">
-&copy; 2014 Computer Trends LLC
-</div><!-- end footer -->
-
-</div><!-- end main -->
-
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="google-site-verification" content="qWISntRLEfw10I8cJ9mr_MnQzdnZu0WvrfXHOG8txGo" />
+        <meta name="author" content="Daniel Jones http://djones.co/" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+        <link href="/css/style.css" rel="stylesheet" type="text/css" />
+        <link rel="icon" type="image/png" href="/images/icon.png" />
+        <title>Computer Trends - {{ page.title }}</title>
+    </head>
+    <body>
+        <div class="container">
+            <header>{% include header.html %}</header>
+            <nav>{% include nav.html %}</nav>
+            <div class="main">
+                <div class="content">
+                    <h1>{{ page.title }}</h1>
+                    {{ content }}
+                </div>
+                <div class="info">{% include info.html %}</div>
+                <footer>{% include footer.html %}</footer>
+            </div>
+        </div>
+    </body>
 </html>
