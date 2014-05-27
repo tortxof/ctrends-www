@@ -1,13 +1,45 @@
+@import "compass/css3";
+@import "susy";
+@import "breakpoint";
+@import 'compass/reset/utilities';
+
+/* Reset */
+
+* {
+@include reset-box-model;
+}
+
 html, body {
 height: 100%;
 }
 
+/* Paragraph spacing */
+
+ul, ol {
+padding-left: 2em;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+padding: 0.5em 0;
+}
+
+/* Font and Color */
+
 body {
 font-family: 'Open Sans', sans-serif;
 background-color: #369;
-background: -moz-linear-gradient(#def, #369 480px) no-repeat;
-margin: 0;
+@include background-image(linear-gradient(#def, #369 480px));
 }
+
+/* Non-structural Classes */
+
+
+
+/* Structure */
+
+
+
+/* Breakpoints */
 
 h1 {
 font-size:1.5em;
