@@ -6,6 +6,7 @@
 $header-x: image-width('ctrends-logo.png');
 $header-y: image-height('ctrends-logo.png');
 
+$body-bg: #369;
 $nav-hover: #a45;
 
 /* Reset */
@@ -28,8 +29,8 @@ padding: 0.5em 0;
 
 body {
 font-family: 'Open Sans', sans-serif;
-background-color: #369;
-@include background(linear-gradient(#def, #369) fixed);
+background-color: $body-bg;
+@include background(linear-gradient(saturate(tint($body-bg, 85%), 50%), shade($body-bg, 50%)) fixed);
 }
 
 h1 {
