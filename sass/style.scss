@@ -108,8 +108,7 @@ display: block;
 width: 50%;
 margin-left: auto;
 margin-right: auto;
-padding-top: .2em;
-padding-bottom: .2em;
+padding: .2em 1em;
 text-align: center;
 border-width: 1px 1px 0 1px;
 }
@@ -148,104 +147,68 @@ padding-bottom: .5em;
 
 /* Breakpoints */
 
+@include breakpoint(480px) {
+header p {
+text-align: center;
+}
+}
 
-/*
+@include breakpoint(640px) {
 header {
-width: 680px;
-height: 91px;
-background: url('/images/ctrends-logo.png') no-repeat;
-padding: 0;
-margin:0 auto;
+background-size: $header-x $header-y;
 }
 
 header p {
-line-height: 91px;
-font-size: 40px;
-margin: 0;
-padding: 0 0 0 100px;
+line-height: $header-y;
+font-size: 36px;
 }
 
 nav {
-max-width:680px;
-width:auto;
-font-size:.8em;
-padding:0;
-margin:0 auto 0 auto;
+position: relative;
+text-align: center;
+margin-bottom: 0;
 }
 
-nav a:link, nav a:visited
-{
+nav a {
 display: inline-block;
-width:auto;
-color:#000;
-background-color:#fff;
-border:0;
-border-radius:6px 6px 0 0;
-text-align:center;
-padding:.2em 1em .2em 1em;
-margin:0 2px 0 2px;
-text-decoration:none;
-}
-nav a:hover, nav a:active
-{
-color:#fff;
-background-color:#936;
+width: auto;
+margin: 0 .5em;
+border-width: 1px 1px 0 1px;
+@include border-top-radius(8px);
 }
 
-.main {
-max-width:680px;
-margin:0 auto 0 auto;
-background-color:#fff;
-border:1px solid #333;
-border-radius:8px;
-padding:16px;
+nav a:last-child {
+border-width: 1px 1px 0 1px;
 }
+}
+
+@include breakpoint(750px) {
+@include layout(4 1/4 inside);
 
 .info {
-float:left;
-width:150px;
-margin:0 32px 32px 0;
-padding:8px;
-border:1px solid #aaa;
-border-radius:8px;
+@include span(1);
+margin-top: 1em;
+margin-bottom: 1em;
 }
 
 .content {
-width:480px;
-float:right;
-margin:0;
-padding:0;
-border:0;
+@include span(3 last);
+}
 }
 
-footer {
-clear:both;
-max-width:680px;
-width:auto;
-font-size:.8em;
-color:#333;
-margin:0;
-padding:0;
+@include breakpoint(980px) {
+.container {
+@include container(80%);
 }
 
-@media only screen and (max-width: 512px), only screen and (max-device-width: 512px) {
-
-#header, #menu, #main, #content, #footer {
-width:auto;
+.main {
+@include border-radius(8px);
+@include box-shadow(rgba(black, 0.5) 0 0 32px);
 }
-
-#content, #info {
-float:none;
 }
 
-#menu a:link, #menu a:visited {
-margin:2px;
-border-radius:0;
-}
-
-#main {
-border:0;
-border-radius:0;
+@include breakpoint(1200px) {
+.container {
+@include container(960px);
 }
 }
-*/
