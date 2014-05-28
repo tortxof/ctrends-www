@@ -9,10 +9,6 @@
 @include reset-box-model;
 }
 
-html, body {
-height: 100%;
-}
-
 /* Paragraph spacing */
 
 ul, ol {
@@ -28,7 +24,7 @@ padding: 0.5em 0;
 body {
 font-family: 'Open Sans', sans-serif;
 background-color: #369;
-@include background-image(linear-gradient(#def, #369 480px));
+@include background(linear-gradient(#def, #369) fixed);
 }
 
 /* Non-structural Classes */
