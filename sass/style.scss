@@ -3,6 +3,11 @@
 @import "breakpoint";
 @import 'compass/reset/utilities';
 
+$header-x: image-width('ctrends-logo.png');
+$header-y: image-height('ctrends-logo.png');
+
+$nav-hover: #a45;
+
 /* Reset */
 
 * {
@@ -12,7 +17,7 @@
 /* Paragraph spacing */
 
 ul, ol {
-padding-left: 2em;
+padding-left: 3em;
 }
 
 p, h1, h2, h3, h4, h5, h6 {
@@ -27,26 +32,124 @@ background-color: #369;
 @include background(linear-gradient(#def, #369) fixed);
 }
 
+h1 {
+font-size:1.6em;
+font-weight:normal;
+text-align: center;
+}
+
+h2 {
+font-size:1.3em;
+font-weight:normal;
+text-align: center;
+}
+
+header p {
+@include text-shadow(rgba(black, 0.4) 1px 1px 3px);
+}
+
+nav a {
+@include background(linear-gradient(#eee, #aaa));
+@include box-shadow(white 0 0 2px inset);
+font-size: .8em;
+color: #333;
+border-style: solid;
+border-color: #666;
+text-decoration: none;
+}
+
+nav a:hover {
+@include background(linear-gradient(tint($nav-hover, 30%), tint($nav-hover, 80%)));
+}
+
+.main {
+background-color: white;
+@include box-shadow(black 0 0 8px);
+}
+
+footer {
+color: #666;
+font-size: .8em;
+}
+
 /* Non-structural Classes */
 
 
 
 /* Structure */
 
+@include layout(4 1 inside);
 
+.container {
+@include container(100%);
+}
+
+header {
+@include span(full);
+margin-top: .5em;
+background: url('/images/ctrends-logo.png') no-repeat gutter() 0;
+background-size: ($header-x * 2/3) ($header-y * 2/3);
+}
+
+header p {
+line-height: ($header-y * 2/3);
+font-size: 28px;
+text-align: right;
+padding: 0;
+}
+
+nav {
+@include span(full);
+margin-bottom: 1em;
+}
+
+nav a {
+display: block;
+width: 50%;
+margin-left: auto;
+margin-right: auto;
+padding-top: .2em;
+padding-bottom: .2em;
+text-align: center;
+border-width: 1px 1px 0 1px;
+}
+
+nav a:last-child {
+border-width: 1px;
+}
+
+.main {
+@include span(full no-gutter);
+}
+
+.content {
+@include span(full);
+padding-top: 1em;
+padding-bottom: 1em;
+}
+
+.info {
+@include span(full);
+}
+
+.info-inside {
+border: 1px solid #666;
+@include border-radius(8px);
+margin: 0 auto;
+padding: 8px;
+width: 150px;
+}
+
+footer {
+@include span(full);
+padding-top: .5em;
+padding-bottom: .5em;
+}
 
 /* Breakpoints */
 
-h1 {
-font-size:1.5em;
-font-weight:normal;
-}
 
-h2 {
-font-size:1.2em;
-font-weight:normal;
-}
-
+/*
 header {
 width: 680px;
 height: 91px;
@@ -145,3 +248,4 @@ border:0;
 border-radius:0;
 }
 }
+*/
