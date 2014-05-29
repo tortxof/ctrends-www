@@ -146,6 +146,13 @@ padding-top: .5em;
 padding-bottom: .5em;
 }
 
+.map {
+display: block;
+@include span(full no-gutter);
+border: 1px solid #666;
+height: 320px;
+}
+
 /* Breakpoints */
 
 @include breakpoint(480px) {
@@ -180,6 +187,10 @@ border-width: 1px 1px 0 1px;
 
 nav a:last-child {
 border-width: 1px 1px 0 1px;
+}
+
+.map {
+height: 420px;
 }
 }
 
