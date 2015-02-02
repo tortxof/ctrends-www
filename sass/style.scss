@@ -138,9 +138,14 @@ padding-bottom: 1em;
 .info-inside {
 border: 1px solid #666;
 @include border-radius(8px);
-margin: 0 auto;
+margin: 0 auto 1em;
 padding: 8px;
-width: 150px;
+width: 202px;
+}
+
+#review-widget-container {
+  width: 220px;
+  margin: 0 auto 1em;
 }
 
 footer {
@@ -198,7 +203,7 @@ height: 420px;
 }
 
 @include breakpoint(750px) {
-@include layout(4 1/4 inside);
+@include layout(3 1/4 inside);
 
 header p {
 font-size: 42px;
@@ -211,7 +216,7 @@ margin-bottom: 1em;
 }
 
 .content {
-@include span(3 last);
+@include span(2 last);
 }
 }
 

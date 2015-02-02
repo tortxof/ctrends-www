@@ -23,7 +23,10 @@
                     <h1>{{ page.title }}</h1>
                     {{ content }}
                 </div>
-                <div class="info">{% include info.html %}</div>
+                <div class="info">
+                  {% include info.html %}
+                  {% include yodle-ratings.html %}
+                </div>
                 <footer>{% include footer.html %}</footer>
             </div>
         </div>
