@@ -12,67 +12,67 @@ $nav-hover: #a45;
 /* Reset */
 
 * {
-@include reset-box-model;
+  @include reset-box-model;
 }
 
 /* Paragraph spacing */
 
 ul, ol {
-padding-left: 3em;
+  padding-left: 3em;
 }
 
 p, h1, h2, h3, h4, h5, h6 {
-padding: 0.5em 0;
+  margin: 1em 0;
 }
 
 /* Font and Color */
 
 body {
-font-family: 'Open Sans', sans-serif;
-background-color: $body-bg;
-@include background(linear-gradient(saturate(tint($body-bg, 85%), 50%), shade($body-bg, 50%)) fixed);
+  font-family: 'Open Sans', sans-serif;
+  background-color: $body-bg;
+  @include background(linear-gradient(saturate(tint($body-bg, 85%), 50%), shade($body-bg, 50%)) fixed);
 }
 
 h1 {
-font-size:1.6em;
-font-weight:normal;
-text-align: center;
+  font-size:1.6em;
+  font-weight:normal;
+  text-align: center;
 }
 
 h2 {
-font-size:1.3em;
-font-weight:normal;
-text-align: center;
+  font-size:1.3em;
+  font-weight:normal;
+  text-align: center;
 }
 
 header p {
-@include text-shadow(rgba(black, 0.4) 1px 1px 3px);
+  @include text-shadow(rgba(black, 0.4) 1px 1px 3px);
 }
 
 nav a {
-@include background(linear-gradient(#eee, #aaa));
-background-color: #ccc;
-@include box-shadow(white 0 0 2px inset);
-font-size: .8em;
-color: #333;
-border-style: solid;
-border-color: #666;
-text-decoration: none;
+  @include background(linear-gradient(#eee, #aaa));
+  background-color: #ccc;
+  @include box-shadow(white 0 0 2px inset);
+  font-size: .8em;
+  color: #333;
+  border-style: solid;
+  border-color: #666;
+  text-decoration: none;
 }
 
 nav a:hover {
-@include background(linear-gradient(tint($nav-hover, 30%), tint($nav-hover, 80%)));
-background-color: tint($nav-hover, 30%);
+  @include background(linear-gradient(tint($nav-hover, 30%), tint($nav-hover, 80%)));
+  background-color: tint($nav-hover, 30%);
 }
 
 .main {
-background-color: white;
-@include box-shadow(black 0 0 8px);
+  background-color: white;
+  @include box-shadow(black 0 0 8px);
 }
 
 footer {
-color: #666;
-font-size: .8em;
+  color: #666;
+  font-size: .8em;
 }
 
 /* Non-structural Classes */
@@ -84,63 +84,63 @@ font-size: .8em;
 @include layout(4 1 inside);
 
 .container {
-@include container(100%);
-padding-bottom: 2em;
+  @include container(100%);
+  padding-bottom: 2em;
 }
 
 header {
-@include span(full);
-margin-top: .5em;
-background: url('/images/ctrends-logo.png') no-repeat gutter() 0;
-background-size: ($header-x * 2/3) ($header-y * 2/3);
+  @include span(full);
+  margin-top: .5em;
+  background: url('/images/ctrends-logo.png') no-repeat gutter() 0;
+  background-size: ($header-x * 2/3) ($header-y * 2/3);
 }
 
 header p {
-line-height: ($header-y * 2/3);
-font-size: 28px;
-text-align: right;
-padding: 0;
+  line-height: ($header-y * 2/3);
+  font-size: 28px;
+  text-align: right;
+  padding: 0;
 }
 
 nav {
-@include span(full);
-margin-bottom: 1em;
+  @include span(full);
+  margin-bottom: 1em;
 }
 
 nav a {
-display: block;
-width: 50%;
-margin-left: auto;
-margin-right: auto;
-padding: .2em 1em;
-text-align: center;
-border-width: 1px 1px 0 1px;
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: .2em 1em;
+  text-align: center;
+  border-width: 1px 1px 0 1px;
 }
 
 nav a:last-child {
-border-width: 1px;
+  border-width: 1px;
 }
 
 .main {
-@include span(full no-gutter);
+  @include span(full no-gutter);
 }
 
 .content {
-@include span(full);
-padding-top: 1em;
-padding-bottom: 1em;
+  @include span(full);
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 
 .info {
-@include span(full);
+  @include span(full);
 }
 
 .info-inside {
-border: 1px solid #666;
-@include border-radius(8px);
-margin: 0 auto 1em;
-padding: 8px;
-width: 202px;
+  border: 1px solid #666;
+  @include border-radius(8px);
+  margin: 0 auto 1em;
+  padding: 8px;
+  width: 202px;
 }
 
 #review-widget-container {
@@ -149,90 +149,90 @@ width: 202px;
 }
 
 footer {
-@include span(full);
-padding-top: .5em;
-padding-bottom: .5em;
+  @include span(full);
+  padding-top: .5em;
+  padding-bottom: .5em;
 }
 
 .map {
-display: block;
-@include span(full no-gutter);
-border: 1px solid #666;
-height: 320px;
+  display: block;
+  @include span(full no-gutter);
+  border: 1px solid #666;
+  height: 320px;
 }
 
 /* Breakpoints */
 
 @include breakpoint(480px) {
-header p {
-text-align: center;
-}
+  header p {
+    text-align: center;
+  }
 }
 
 @include breakpoint(640px) {
-header {
-background-size: $header-x $header-y;
-}
+  header {
+    background-size: $header-x $header-y;
+  }
 
-header p {
-line-height: $header-y;
-font-size: 36px;
-}
+  header p {
+    line-height: $header-y;
+    font-size: 36px;
+  }
 
-nav {
-position: relative;
-text-align: center;
-margin-bottom: 0;
-}
+  nav {
+    position: relative;
+    text-align: center;
+    margin-bottom: 0;
+  }
 
-nav a {
-display: inline-block;
-width: auto;
-margin: 0 .5em;
-border-width: 1px 1px 0 1px;
-@include border-top-radius(8px);
-}
+  nav a {
+    display: inline-block;
+    width: auto;
+    margin: 0 .5em;
+    border-width: 1px 1px 0 1px;
+    @include border-top-radius(8px);
+  }
 
-nav a:last-child {
-border-width: 1px 1px 0 1px;
-}
+  nav a:last-child {
+    border-width: 1px 1px 0 1px;
+  }
 
-.map {
-height: 420px;
-}
+  .map {
+    height: 420px;
+  }
 }
 
 @include breakpoint(750px) {
-@include layout(3 1/4 inside);
+  @include layout(3 1/4 inside);
 
-header p {
-font-size: 42px;
-}
+  header p {
+    font-size: 42px;
+  }
 
-.info {
-@include span(1);
-margin-top: 1em;
-margin-bottom: 1em;
-}
+  .info {
+    @include span(1);
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
 
-.content {
-@include span(2 last);
-}
+  .content {
+    @include span(2 last);
+  }
 }
 
 @include breakpoint(980px) {
-.container {
-@include container(80%);
-}
+  .container {
+    @include container(80%);
+  }
 
-.main {
-@include border-radius(8px);
-@include box-shadow(rgba(black, 0.5) 0 0 32px);
-}
+  .main {
+    @include border-radius(8px);
+    @include box-shadow(rgba(black, 0.5) 0 0 32px);
+  }
 }
 
 @include breakpoint(1200px) {
-.container {
-@include container(960px);
-}
+  .container {
+    @include container(960px);
+  }
 }
