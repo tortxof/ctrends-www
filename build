@@ -1,2 +1,2 @@
-compass compile --force -s compressed
+compass compile --force
 jekyll build
