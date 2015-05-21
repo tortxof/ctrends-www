@@ -1,0 +1,20 @@
+---
+layout: default
+title: Testimonials
+---
+<script src="/js/handlebars-v3.0.3.js"></script>
+<p>See what our customers have to say about us.</p>
+
+<div id="reviews"></div>
+
+<script id="reviews-template" type="text/x-handlebars-template">
+  {% raw %}
+  <div class="review">
+    <p class="review-title">{{ title }}</p>
+    <p class="review-text">{{ text }}</p>
+    <p class="review-author">{{ author }}</p>
+  </div>
+  {% endraw %}
+</script>
+
+<script src="/js/get_reviews.js"></script>
