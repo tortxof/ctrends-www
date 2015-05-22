@@ -5,5 +5,8 @@
   text: Computer Services
   href: '/services/'
 -
+  text: Testimonials
+  href: '/testimonials/'
+-
   text: Contact Us
   href: '/contact/'

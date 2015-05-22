@@ -93,6 +93,18 @@ footer {
   float: left;
 }
 
+.review-author::before {
+  content: "\2014";
+}
+
+.review-title {
+  font-weight: bold;
+}
+
+.review-author {
+  color: #666;
+}
+
 /* Structure */
 
 @include layout(4 1 inside);
@@ -149,17 +161,15 @@ nav a:last-child {
   @include span(full);
 }
 
-.info-inside {
+.info-inside, .review {
   box-shadow: $std-shadow;
   @include border-radius(8px);
   margin: 0 auto 1em;
   padding: 8px;
-  width: 202px;
 }
 
-#review-widget-container {
-  width: 220px;
-  margin: 0 auto 1em;
+.info-inside {
+  width: 202px;
 }
 
 footer {
