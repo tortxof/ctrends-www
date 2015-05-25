@@ -27,6 +27,32 @@ p, h1, h2, h3, h4, h5, h6 {
   margin: 1em 0;
 }
 
+input, textarea {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  width: 100%;
+  padding: 4px;
+  border: 1px solid gray;
+}
+
+textarea {
+  vertical-align: top;
+  height: 6em;
+}
+
+button {
+  font-size: 1em;
+  padding: 4px;
+  background-color: ghostwhite;
+  border-radius: 3px;
+  box-shadow: $std-shadow;
+  margin: 1em 0;
+}
+
+button:hover {
+  background-color: mintcream;
+}
+
 /* Font and Color */
 
 body {

@@ -1,9 +1,8 @@
-$.getJSON("/testimonials/reviews.json", function(json) {
+$.getJSON("http://ctrends-reviews.djones.co/reviews.json", function(json) {
 
-  var source = $("#reviews-template").html();
-  var template = Handlebars.compile(source);
-  for (var i in json) {
-    var new_review = template(json[i]);
+  var template = Handlebars.compile($("#reviews-template").html());
+  for (var i in json["reviews"]) {
+    var new_review = template(json["reviews"][i]);
     $("#reviews").append(new_review);
   }
 });
