@@ -2,6 +2,8 @@
 layout: default
 title: Home
 ---
+<script src="/js/handlebars-v3.0.3.js"></script>
+
 ![storefront](/images/storefront.jpg){:class="img-right"}
 
 **Computer Trends** is a family owned and operated business that began in Spartanburg, S.C. in 1985.
@@ -13,3 +15,17 @@ We cater to small businesses as well as anyone in need of a local computer deale
 Being in business since 1985 has allowed us the opportunity to become exposed to a variety of computer issues,
 from viruses to computer hardware failures, network troubleshooting and many others.
 So, whether you need viruses removed, data transferred, computers upgraded or just looking for some advice, please let us help.
+
+<div id="reviews"></div>
+
+<script id="reviews-template" type="text/x-handlebars-template">
+  {% raw %}
+  <div class="review">
+    <p class="review-title">{{ title }}</p>
+    <p class="review-text">{{ text }}</p>
+    <p class="review-author">{{ author }}</p>
+  </div>
+  {% endraw %}
+</script>
+
+<script src="/js/get_random_review.js"></script>
