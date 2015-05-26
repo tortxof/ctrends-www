@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About Us
+title: Home
 ---
 ![storefront](/images/storefront.jpg){:class="img-right"}
 
