@@ -6,6 +6,7 @@ title: Home
 
 ![storefront](/images/storefront.jpg){:class="img-right"}
 
+<h1>Computer Repair in Spartanburg, SC</h1>
 **Computer Trends** is a family owned and operated business that began in Spartanburg, S.C. in 1985.
 We are conveniently located on 1237 Boiling Springs Road in Spartanburg, approximately one mile from Spartanburg Regional Hospital.
 
