@@ -6,7 +6,7 @@ Write a review on [Google+](https://plus.google.com/114084834035963904472/about)
 
 Write a review for our website.
 
-<form action="http://ctrends-reviews.djones.co/submit-review" method="post">
+<form action="http://reviews.ctrends.net/submit-review" method="post">
   <label for="title">Review Title:</label>
   <input type="text" name="title" id="title">
   <br>
