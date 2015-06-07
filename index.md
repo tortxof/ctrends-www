@@ -22,7 +22,9 @@ So, whether you need viruses removed, data transferred, computers upgraded or ju
   {% raw %}
   <div class="review">
     <p class="review-title">{{ title }}</p>
-    <p class="review-text">{{ text }}</p>
+    <div class="review-text">
+      {{{ text }}}
+    </div>
     <p class="review-author">{{ author }}</p>
   </div>
   {% endraw %}
