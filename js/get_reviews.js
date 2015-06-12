@@ -1,4 +1,4 @@
-$.getJSON("http://reviews.ctrends.net/reviews.json", function(json) {
+$.getJSON("//reviews.ctrends.net/reviews.json", function(json) {
 
   var template = Handlebars.compile($("#reviews-template").html());
   for (var i in json["reviews"]) {
