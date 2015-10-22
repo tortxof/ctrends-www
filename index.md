@@ -4,6 +4,8 @@ title: Computer Repair in Spartanburg, SC
 ---
 <script src="/js/handlebars-v3.0.3.js"></script>
 
+## Call (864)582-2021
+
 ![storefront](/images/storefront.jpg){:class="img-right"}
 
 **Computer Trends** is a family owned and operated business that began in Spartanburg, S.C. in 1985.
