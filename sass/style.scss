@@ -58,6 +58,7 @@ button:hover {
 body {
   font-family: 'Open Sans', sans-serif;
   background-color: $body-bg;
+  color: #333;
   @include background(linear-gradient(saturate(tint($body-bg, 85%), 50%), shade($body-bg, 50%)) fixed);
 }
 
