@@ -18,6 +18,14 @@ Being in business since 1985 has allowed us the opportunity to become exposed to
 from viruses to computer hardware failures, network troubleshooting and many others.
 So, whether you need viruses removed, data transferred, computers upgraded or just looking for some advice, please [contact us](/contact/).
 
+Services Include:<br>
+-Virus/Spyware/Malware Removal<br>
+-Computer Repair - Laptops and Desktops<br>
+-Computer Upgrades<br>
+-Custom Built Computer Systems<br>
+-Data Backup or Transfer<br>
+-On Site Services for Small Business<br>
+
 Check out our [recent reviews](/testimonials/)!
 
 <div id="reviews"></div>
