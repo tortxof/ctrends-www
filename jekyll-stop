@@ -1,0 +1,2 @@
+docker stop ctrends-jekyll
+docker rm ctrends-jekyll
