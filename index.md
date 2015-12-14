@@ -4,7 +4,7 @@ title: Computer Repair in Spartanburg, SC
 ---
 <script src="/js/handlebars-v3.0.3.js"></script>
 
-## Call (864)582-2021
+## Call [(864)582-2021](tel:+18645822021)
 
 ![storefront](/images/storefront.jpg){:class="img-right"}
 
