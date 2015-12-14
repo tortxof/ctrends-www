@@ -1,6 +1,6 @@
 name: Computer Trends
 url: http://ctrends.net
-permalink: /:year/:month/:day/:title
+permalink: /:year/:month/:day/:title/
 exclude:
 - README.md
 - assets
