@@ -213,6 +213,10 @@ footer {
   height: 320px;
 }
 
+.coupon {
+  width: 202px;
+}
+
 /* Breakpoints */
 
 @include breakpoint(480px) {
