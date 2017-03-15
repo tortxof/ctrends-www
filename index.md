@@ -26,6 +26,7 @@ So, whether you need viruses removed, data transferred, computers upgraded or ju
 - Custom Built Computer Systems
 - Data Backup or Transfer
 - On Site Services for Small Business
+- IT Service and Repair
 
 Check out our [recent reviews](/testimonials/)!
 
