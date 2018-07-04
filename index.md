@@ -41,7 +41,7 @@ Check out our [recent reviews](/testimonials/)!
   <div class="review">
     <p class="review-title">{{ title }}</p>
     <div class="review-text">
-      {{{ text }}}
+      {{{ content }}}
     </div>
     <p class="review-author">{{ author }}</p>
   </div>
